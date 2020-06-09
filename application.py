@@ -11,4 +11,4 @@ socketio = SocketIO(app)
 
 @app.route("/")
 def index():
-    return "Project 2: TODO"
+    return render_template("home.html")
